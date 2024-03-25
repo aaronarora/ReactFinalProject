@@ -1,0 +1,16 @@
+.TopBooks-container {
+   background-color: #eeffdd;
+   max-height: 600px;
+   border-bottom: 1px 
+}
+
+.TopBooks-container h2 {
+  font-size: 18px;
+}
+
+media screen and (max-width: 800px) {
+  .TopBooks-container {
+    width: 100%;
+    padding: 5px;
+  }
+}

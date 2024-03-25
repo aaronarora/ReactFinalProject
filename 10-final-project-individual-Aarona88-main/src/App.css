@@ -1,0 +1,82 @@
+.App-navbar * {
+    box-sizing: border-box;
+}
+
+.App-navbar h1 {
+    white-space: nowrap;
+    font-size: 29px;
+}
+
+
+.App-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+  
+.App-navbar a { 
+  text-decoration: none;
+  color: black;
+
+  display: inline-block;
+  padding: 1.2rem;
+  margin-right: 0.4rem; 
+
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .App-container h1 {
+        text-align: center;
+    }
+    .App-navbar {
+        display: block;
+    }
+    .App-navbar ul {
+        display: block;
+        width: 100%;
+    }
+
+    .App-navbar li {
+        margin: 0px;
+        padding: 0px;
+        width: 50%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .App-navbar li a {
+        color: #773344;
+        display: inline-block;
+        width: 100%;
+    }
+
+}
+
+
+
+.App-navbar a.active {
+    background-color: #773344;
+    color: white;
+}
+
+
+.App-navbar a:not(.active):hover {
+    background-color: #e7fdd0;
+}
+
+
+.App-container {
+    padding: 15px;
+}
+
+
+
+  

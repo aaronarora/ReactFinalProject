@@ -1,0 +1,72 @@
+.Book-container {
+  width: 70%;
+}
+
+.Book-container.compact {
+  font-size: 12px;
+  width: 600px;
+  padding: 5px;
+  padding-right: 10px;
+}
+
+.Book-container:not(:last-child) {
+  border-bottom: 1px solid lightgray;
+}
+
+.Book-header-and-star {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Book-title {
+  display: inline-block;
+  color: rgb(0, 0, 78);
+  text-decoration: none;
+}
+
+.Book-title:hover {
+  color: rgb(0, 0, 78);
+  text-decoration: underline;
+}
+
+.Book-author {
+  font-weight: 600;
+}
+
+.Book-cover, .Book-cover-placeholder {
+  margin-bottom: 6px;
+}
+
+.Book-cover-placeholder {
+  border-radius: 6px;
+  background-color: #773344;
+  opacity: 0.8;
+  color: white;
+  font-size: 11px;
+  display: grid;
+  place-items: center;
+  width: 170px;
+  height: 224px;
+}
+
+.Book-description {
+  padding: 7px;
+  background-color: #ede6e8;
+  white-space: pre-wrap;
+  font-size: 0.9em;
+  margin-bottom: 8px;
+}
+
+.Book-authors {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 800px) {
+  .Book-container {
+    width: 100% !important;
+  }
+    
+  .Book-description {
+    width: 80%;
+  }
+}

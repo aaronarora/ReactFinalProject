@@ -1,0 +1,19 @@
+.Star-star {
+  font-size: 28px;
+  color: lightblue;
+  text-decoration: none;
+  position: relative;
+  top: 15px;
+}
+
+
+
+.Star-star, .Star-star:hover {
+  color: #521f2c;
+}
+
+
+.Star-star:not(.favorited) {
+  opacity: 30%;
+}
+

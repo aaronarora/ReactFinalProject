@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/10-final-project-individual-Aarona88/static/css/main.1c12f206.chunk.css",
+    "main.js": "/10-final-project-individual-Aarona88/static/js/main.63bb9945.chunk.js",
+    "main.js.map": "/10-final-project-individual-Aarona88/static/js/main.63bb9945.chunk.js.map",
+    "runtime-main.js": "/10-final-project-individual-Aarona88/static/js/runtime-main.7e25c97f.js",
+    "runtime-main.js.map": "/10-final-project-individual-Aarona88/static/js/runtime-main.7e25c97f.js.map",
+    "static/js/2.4dc68100.chunk.js": "/10-final-project-individual-Aarona88/static/js/2.4dc68100.chunk.js",
+    "static/js/2.4dc68100.chunk.js.map": "/10-final-project-individual-Aarona88/static/js/2.4dc68100.chunk.js.map",
+    "static/js/3.4a848a80.chunk.js": "/10-final-project-individual-Aarona88/static/js/3.4a848a80.chunk.js",
+    "static/js/3.4a848a80.chunk.js.map": "/10-final-project-individual-Aarona88/static/js/3.4a848a80.chunk.js.map",
+    "index.html": "/10-final-project-individual-Aarona88/index.html",
+    "static/css/main.1c12f206.chunk.css.map": "/10-final-project-individual-Aarona88/static/css/main.1c12f206.chunk.css.map",
+    "static/js/2.4dc68100.chunk.js.LICENSE.txt": "/10-final-project-individual-Aarona88/static/js/2.4dc68100.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e25c97f.js",
+    "static/js/2.4dc68100.chunk.js",
+    "static/css/main.1c12f206.chunk.css",
+    "static/js/main.63bb9945.chunk.js"
+  ]
+}
